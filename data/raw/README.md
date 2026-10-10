@@ -4,7 +4,7 @@ The original source dataset used for the E-Commerce Business Intelligence & Cust
 
 ## Download
 
-The full dataset is available in the [GitHub Releases](../../releases) section.
+The full dataset is available in the [GitHub Releases]([../../releases](https://github.com/asharyuvraj-source/ecommerce-business-intelligence/releases/tag/v1.0.0)) section.
 
 Download the original dataset from the project release assets before running the data preparation workflow.
 

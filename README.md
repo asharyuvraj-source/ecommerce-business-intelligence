@@ -1,327 +1,149 @@
-# 🛒 E-Commerce Business Intelligence & Customer Analytics
+# E-Commerce Business Intelligence & Customer Analytics
 
-**An end-to-end data analytics and business intelligence project using Python, PostgreSQL, SQL, and Power BI.**
+**An End-to-End Data Analytics Project | Python • PostgreSQL • SQL • Power BI**
 
-## 📌 Project Overview
+Transforming e-commerce data into actionable business insights through data preparation, SQL analysis, KPI development, customer analytics, and interactive dashboard reporting.
 
-This project focuses on analyzing e-commerce sales, customer purchasing behavior, product performance, profitability, delivery operations, returns, cancellations, marketing channels, and customer satisfaction.
+## Project Overview
 
-The objective is to transform structured transactional data into meaningful business insights through data preparation, SQL-based analysis, KPI development, and interactive Power BI visualizations.
+This project demonstrates an end-to-end business intelligence workflow designed to analyze e-commerce sales performance, customer purchasing behavior, product profitability, operational efficiency, and marketing effectiveness.
 
-The project includes a six-page Power BI dashboard designed to support business performance monitoring, identify analytical trends, and facilitate data-driven decision-making.
+Using Python, PostgreSQL, SQL, and Microsoft Power BI, the project organizes structured data into analytical datasets, develops business KPIs, and presents findings through a six-page interactive dashboard.
 
-## 🎯 Project Objectives
+**Project type:** Business Intelligence & Data Analytics  
+**Dataset:** Synthetic e-commerce data  
+**Tools:** Python, Pandas, NumPy, PostgreSQL, SQL, Power Query, Power BI, DAX
 
-- Analyze overall sales, revenue, and profitability performance.
-- Understand customer purchasing behavior and customer segments.
-- Evaluate product and category-level sales and profitability.
-- Monitor order cancellations, returns, and delivery performance.
-- Compare marketing channel performance and customer types.
-- Analyze customer ratings and review sentiment.
-- Develop interactive KPIs and business intelligence reports.
+## Business Objectives
 
-## 🛠️ Tools & Technologies
+- Evaluate revenue, profit, sales trends, and order performance.
+- Understand customer segments, repeat purchasing, and customer lifetime value.
+- Compare product categories, sales volume, costs, and profitability.
+- Analyze order cancellations, returns, and delivery performance.
+- Examine marketing-channel performance and customer satisfaction.
+- Translate business data into clear, decision-supporting visualizations.
 
-### 1. Python — Data Cleaning & Preprocessing
+## Technology Stack
 
-Used Python to inspect datasets, prepare structured data, perform data cleaning, validate data types, handle missing values, check duplicates, and support exploratory data analysis.
+| Technology | Application |
+|---|---|
+| Python | Data inspection, preparation, and cleaning |
+| Pandas & NumPy | Data manipulation and quality checks |
+| PostgreSQL | Structured data storage and querying |
+| SQL | Data validation, aggregations, and business analysis |
+| Power Query | Data transformation for reporting |
+| Power BI | Interactive dashboard and business reporting |
+| DAX | KPI measures and analytical calculations |
 
-**Key capabilities:**
-- Pandas for data manipulation and preprocessing
-- NumPy for numerical operations
-- Data inspection and quality checks
-- Missing-value and duplicate analysis
-- Data transformation and preparation
+## Project Workflow
 
-### 2. PostgreSQL — Relational Database Management
+1. **Data Inspection & Preparation** — Examine dataset structure, data types, missing values, and duplicate records.
+2. **Data Cleaning & Validation** — Prepare analytical datasets and apply relevant quality checks.
+3. **Database Management** — Organize structured datasets in PostgreSQL.
+4. **SQL Business Analysis** — Analyze sales, customer, product, and operational performance.
+5. **Data Modeling** — Organize order, order-item, customer, product, and date tables for Power BI.
+6. **KPI Development** — Define measures for revenue, profit, order volume, margins, returns, cancellations, and delivery performance.
+7. **Dashboard Development** — Present the analysis in six dashboard pages.
 
-Used PostgreSQL to store and organize e-commerce data across orders, order items, customer records, and product catalog tables. The database supports structured querying, aggregation, and validation of transactional data.
+## Power BI Dashboard
 
-**Key capabilities:**
-- Relational table management
-- Structured data storage
-- Data types and table organization
-- Aggregation and filtering
-- Data integrity validation
-
-### 3. SQL — Data Analysis & Validation
-
-Used SQL to query transactional datasets, aggregate business metrics, analyze sales and profitability, examine customer behavior, and evaluate operational performance.
-
-**Key capabilities:**
-- JOINs and relational data analysis
-- GROUP BY and aggregate functions
-- Common Table Expressions (CTEs)
-- Conditional logic and CASE statements
-- Date-based analysis
-- Business KPI calculations
-- Data-quality and consistency checks
-
-### 4. Power BI — Interactive Business Intelligence
-
-Developed a six-page interactive Power BI dashboard to present business performance across sales, customers, products, operations, profitability, marketing, and customer satisfaction.
-
-**Key capabilities:**
-- Interactive dashboards and reports
-- KPI cards and business performance indicators
-- Trend and category analysis
-- Slicers and interactive filtering
-- Comparative visualizations
-- Business performance monitoring
-
-### 5. DAX — KPI Development & Business Metrics
-
-Created DAX measures to calculate business performance indicators and enable dynamic analysis within Power BI.
-
-**Key capabilities:**
-- Revenue and profit calculations
-- Total orders and customer metrics
-- Average Order Value (AOV)
-- Profit margin analysis
-- Cancellation and return rates
-- Repeat-customer metrics
-- Filter-context-based calculations
-
-### 6. Power Query — Data Transformation
-
-Used Power Query to prepare imported datasets for reporting and organize tables for the Power BI data model.
-
-**Key capabilities:**
-- Data type conversion
-- Column transformations
-- Duplicate handling
-- Data preparation
-- Query organization
-- Data-model preparation
-
-## 📊 Power BI Dashboard
-
-The dashboard contains six analytical pages, each focused on a different business function.
+The dashboard is organized into six analytical views.
 
 ### 1. Executive Overview
-
-Provides a high-level view of overall e-commerce performance.
-
-**Key metrics and analyses:**
-- Total Revenue
-- Total Profit
-- Total Orders
-- Total Customers
-- Profit Margin
-- Monthly Revenue and Profit Trends
-- Sales by Product Category
-- Sales by Region
-- Revenue and Profit by Customer Segment
-
-**Business purpose:** Monitor overall performance and identify major sales and profitability trends.
+Provides a high-level view of revenue, profit, order volume, customer activity, and sales trends across key business dimensions.
 
 ### 2. Customer & Sales Analytics
-
-Focuses on customer behavior, purchasing patterns, customer segments, and sales performance.
-
-**Key metrics and analyses:**
-- Total Customers
-- Repeat Customers
-- Repeat-Customer Rate
-- Average Orders per Customer
-- Average Customer Lifetime Value
-- Revenue and Profit by Marketing Channel
-- Revenue Contribution by Customer Segment
-- Revenue and Profit by Customer Type
-- Average Order Value and Margin by Segment
-
-**Business purpose:** Understand customer contribution, purchasing patterns, and differences between customer groups.
+Examines customer segments, repeat purchasing, sales channels, customer types, ratings, and customer lifetime value.
 
 ### 3. Product Analytics
+Compares product sales, units sold, costs, profit, and product-level profitability.
 
-Evaluates product and category performance to understand sales contribution and profitability.
+### 4. Operations & Delivery
+Evaluates cancellations, returns, delivery performance, warehouse operations, and recorded return reasons.
 
-**Key metrics and analyses:**
-- Product Sales
-- Product Cost
-- Product Profit
-- Product Units Sold
-- Product Profit Margin
-- Sales Contribution by Category
-- Profit Contribution by Category
-- Brand Performance
-- Category-Level Profitability Comparisons
-
-**Business purpose:** Identify high-performing categories, compare product profitability, and support product performance evaluation.
-
-### 4. Operations & Delivery Analytics
-
-Examines order fulfillment, delivery performance, returns, and cancellations.
-
-**Key metrics and analyses:**
-- Total Orders
-- Cancelled Orders
-- Cancellation Rate
-- Returned Orders
-- Return Rate
-- Delivery Performance Distribution
-- Late Delivery Rate by Warehouse
-- Returned Orders by Return Reason
-- Cancellation Rate by Sales Channel
-
-**Business purpose:** Monitor operational performance and identify areas that may require further investigation.
-
-### 5. Profitability & Risk Analytics
-
-Focuses on profit margins, loss-making orders, and profitability across business dimensions.
-
-**Key metrics and analyses:**
-- Total Revenue
-- Total Profit
-- Profit Margin
-- Loss-Making Orders
-- Loss-Making Order Rate
-- Profit by Customer Segment
-- Revenue vs. Profit by Product Category
-- Category-Level Profitability Analysis
-- Profitability Benchmark Comparison
-
-**Business purpose:** Evaluate profitability patterns and identify areas for deeper financial analysis.
-
-*Note: Any benchmark displayed in the dashboard should be interpreted as an analytical reference unless independently established as a business target.*
+### 5. Profitability & Risk
+Highlights profit margins, loss-making orders, and areas requiring further profitability analysis.
 
 ### 6. Marketing & Customer Satisfaction
+Explores marketing-channel performance, customer ratings, and review sentiment.
 
-Analyzes marketing channel performance alongside customer ratings and sentiment.
+## Selected Analytical Findings
 
-**Key metrics and analyses:**
-- Total Revenue
-- Total Profit
-- Average Customer Rating
-- Positive Review Sentiment
-- Return Rate
-- Revenue Mix by Marketing Channel and Customer Type
-- Customer Sentiment by Segment
-- Customer Rating and Order Analysis
-- Marketing Channel Performance
+The following figures are based on the current project analysis and should be interpreted in the context of its synthetic dataset.
 
-**Business purpose:** Explore relationships between marketing channels, customer groups, ratings, and review sentiment.
+| Metric | Analyzed Result |
+|---|---:|
+| Order-level revenue | 177.13M |
+| Order-level profit | 76.15M |
+| Distinct orders | 138,116 |
+| Distinct ordering customers | 24,911 |
+| Order-level profit margin | 42.99% |
+| Cancellation rate | 6.08% |
+| Return rate | 6.85% |
+| Loss-making orders | 1,296 |
+| Product-level sales | 192.40M |
+| Product-level profit | 82.70M |
 
-## 🔄 Project Workflow
+**Metric interpretation:** Order-level and product-level financial measures use different data grains. They are presented separately and should not be treated as interchangeable.
 
-The project follows a structured data analytics workflow.
-
-1. **Data Collection:** Load the available e-commerce source datasets.
-2. **Data Inspection:** Examine table structures, column names, data types, and data completeness.
-3. **Data Cleaning:** Prepare datasets for analysis using Python and data transformation techniques.
-4. **Database Management:** Organize the data into relational tables in PostgreSQL.
-5. **SQL Analysis:** Query the data, aggregate metrics, and perform business and data-quality checks.
-6. **Data Modeling:** Establish relationships between order, customer, product, and order-item tables in Power BI.
-7. **KPI Development:** Create DAX measures for sales, profitability, customer, and operational metrics.
-8. **Dashboard Development:** Build interactive reports with KPIs, filters, and analytical visualizations.
-9. **Business Interpretation:** Examine trends and patterns to identify opportunities for further analysis.
-
-## 📈 Key Business Metrics
-
-| Metric | Description |
-|---|---|
-| Total Revenue | Sum of order-level net sales |
-| Total Profit | Sum of order-level profit |
-| Total Orders | Distinct count of orders |
-| Total Customers | Distinct count of customers in the selected context |
-| Average Order Value | Revenue divided by total orders |
-| Profit Margin | Profit divided by revenue |
-| Cancellation Rate | Cancelled orders divided by total orders |
-| Return Rate | Returned orders divided by total orders |
-| Repeat-Customer Rate | Repeat customers divided by the applicable customer denominator |
-| Product Sales | Sum of item-level net sales |
-| Product Profit | Sum of item-level profit |
-| Product Margin | Product profit divided by product sales |
-
-*Metric values can change according to the filters, date range, and calculation context applied in the dashboard.*
-
-## 🗂️ Repository Structure
-
-The repository is organized to separate data, analytical code, SQL scripts, dashboard files, and documentation.
+## Repository Structure
 
 ```text
 ecommerce-business-intelligence/
-│
 ├── README.md
-│
 ├── data/
 │   ├── raw/
+│   │   └── README.md
 │   └── cleaned/
-│
+│       └── README.md
+├── docs/
+│   ├── methodology.md
+│   └── data_dictionary.md
 ├── notebooks/
-│   ├── data_cleaning.ipynb
-│   └── exploratory_data_analysis.ipynb
-│
+│   └── data_cleaning.ipynb
 ├── sql/
-│   ├── data_validation.sql
-│   ├── business_analysis.sql
-│   └── kpi_queries.sql
-│
-├── powerbi/
-│   ├── dashboard.pdf
-│   └── screenshots/
-│
-└── docs/
-    ├── methodology.md
-    └── data_dictionary.md
+│   └── ecommerce_sales_analysis.sql
+└── powerbi/
+    ├── README.md
+    ├── Ecommerce_Analysis.pdf
+    └── screenshots/
 ```
 
-*This is the recommended structure. Keep only files that actually exist in the repository, and update filenames to match your uploaded files.*
+Large datasets and other large project files may be provided through the repository's **Releases** section.
 
-Large datasets and dashboard files may be linked from the repository's Releases section when appropriate.
+## Key Skills Demonstrated
 
-## 🚀 How to Explore the Project
+- Data cleaning and preparation
+- Exploratory data analysis
+- SQL querying and business aggregations
+- PostgreSQL data management
+- Relational data modeling
+- DAX measures and KPI development
+- Sales and profitability analysis
+- Customer segmentation and repeat-purchase analysis
+- Operational and delivery analytics
+- Dashboard design and business communication
 
-1. Review this README to understand the project objectives and dashboard structure.
-2. Browse the `notebooks/` directory for Python analysis and preprocessing.
-3. Explore the `sql/` directory for SQL queries and validation scripts.
-4. Open the dashboard PDF or screenshots in `powerbi/` to review the visualizations.
-5. Refer to `docs/` for methodology and data definitions.
+## Project Deliverables
 
-If the Power BI `.pbix` file is available in the repository's Releases section, download it and open it using Microsoft Power BI Desktop. Data-source configuration may be required to refresh the report on another computer.
+- Python notebook for data preparation and analysis
+- SQL scripts for business analysis
+- Methodology and data dictionary documentation
+- Power BI dashboard exported as PDF
+- Raw and cleaned dataset references
+- Six-page dashboard covering core business functions
 
-## 💡 Skills Demonstrated
+## Limitations & Interpretation
 
-- Data Cleaning and Preprocessing
-- Exploratory Data Analysis
-- SQL Querying and Data Aggregation
-- PostgreSQL Database Management
-- Relational Data Modeling
-- Power BI Dashboard Development
-- DAX Measure Development
-- KPI Definition and Monitoring
-- Customer and Product Analytics
-- Sales and Profitability Analysis
-- Operational Performance Analysis
-- Data Validation and Documentation
-- Business Intelligence and Data Storytelling
+- The dataset is synthetic and does not represent verified performance for a real company.
+- The results are descriptive; observed patterns do not establish causation.
+- Marketing ROI requires reliable marketing-spend data.
+- KPI interpretation depends on the underlying data definitions and calculation logic.
 
-## 📌 Dataset Information
+## Intended Audience
 
-The dataset is synthetic and intended for analytical, educational, and portfolio demonstration purposes.
-
-The analysis demonstrates techniques for examining e-commerce transactions, customer behavior, product performance, and operational metrics. Findings should be interpreted within the context of the dataset rather than as verified results from a real company.
-
-Dataset availability is subject to file-size restrictions and applicable licensing or redistribution permissions.
-
-## 🔮 Potential Future Enhancements
-
-- Develop automated data-quality reporting.
-- Add customer cohort and retention analysis.
-- Perform sales forecasting and trend modeling.
-- Extend product-level profitability analysis.
-- Add automated SQL validation workflows.
-- Explore customer segmentation using machine learning.
-- Improve documentation of metric definitions and data lineage.
-
-## 👨‍💻 Author
-
-**Yuvraj Ashar**
-
-MBA — Business Analytics
-
-**Areas of Interest:** Data Analytics | Business Intelligence | SQL | Power BI | Business Analysis
+This project is relevant to **Data Analyst, Business Analyst, BI Analyst, Reporting Analyst, and Power BI Developer** opportunities. It demonstrates the application of data preparation, SQL, analytical modeling, KPI design, and dashboard reporting to a business-oriented problem.
 
 ---
 
-*This project demonstrates the application of data analytics and business intelligence tools to an e-commerce use case.*
+**Developed as a Business Intelligence & Data Analytics portfolio project.**

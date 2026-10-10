@@ -4,7 +4,7 @@ This directory documents the processed datasets used in the e-commerce analytics
 
 ## Download
 
-The cleaned CSV files are available in the [GitHub Releases](../../releases) section.
+The cleaned CSV files are available in the [GitHub Releases](https://github.com/asharyuvraj-source/ecommerce-business-intelligence/releases/tag/v1.1.0) section.
 
 Download the required files from the project release assets before running the analytical SQL queries or connecting the data to Power BI.
 

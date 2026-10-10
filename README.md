@@ -98,7 +98,7 @@ ecommerce-business-intelligence/
 │       └── README.md
 ├── docs/
 │   ├── methodology.md
-│   └── data_dictionary.md
+│   └── dictionary.md
 ├── notebooks/
 │   └── data_cleaning.ipynb
 ├── sql/
@@ -106,7 +106,6 @@ ecommerce-business-intelligence/
 └── powerbi/
     ├── README.md
     ├── Ecommerce_Analysis.pdf
-    └── screenshots/
 ```
 
 Large datasets and other large project files may be provided through the repository's **Releases** section.
